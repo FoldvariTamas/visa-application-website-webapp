@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import BasicExample from './Navbar';
+import CalendarApp from './Calendar';
 
 export default function WelcomeMessage(){
     //const [greeting, setGreeting] = useState('');
@@ -18,6 +19,7 @@ export default function WelcomeMessage(){
       <div>
         <div><BasicExample/></div>        
         <h1>Greeting{/* {greeting} */}</h1>
+        <div><CalendarApp/></div>
       </div>
     );  
 }
